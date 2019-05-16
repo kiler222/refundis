@@ -1,0 +1,499 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		63C957FE1F74872600BAD365 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63C957FC1F74872600BAD365 /* Main.storyboard */; };
+		D50BE3F91C9FE8870000A34C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50BE3F81C9FE8870000A34C /* AppDelegate.swift */; };
+		D50BE3FB1C9FE8870000A34C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50BE3FA1C9FE8870000A34C /* ViewController.swift */; };
+		D50BE4001C9FE8870000A34C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D50BE3FF1C9FE8870000A34C /* Assets.xcassets */; };
+		D50BE4031C9FE8870000A34C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D50BE4011C9FE8870000A34C /* LaunchScreen.storyboard */; };
+		E555A141228B55BE005B8AEC /* ManualInputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E555A140228B55BE005B8AEC /* ManualInputViewController.swift */; };
+		E57FF975228C13E000802285 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E57FF974228C13E000802285 /* GoogleService-Info.plist */; };
+		E57FF977228C186700802285 /* FirebaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E57FF976228C186700802285 /* FirebaseManager.swift */; };
+		E57FF979228C3C2500802285 /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E57FF978228C3C2500802285 /* OnboardingViewController.swift */; };
+		E57FF97B228C3DD200802285 /* Slide.swift in Sources */ = {isa = PBXBuildFile; fileRef = E57FF97A228C3DD200802285 /* Slide.swift */; };
+		E57FF97D228C3DE500802285 /* Slide.xib in Resources */ = {isa = PBXBuildFile; fileRef = E57FF97C228C3DE500802285 /* Slide.xib */; };
+		E57FF97F228D5D1700802285 /* ScannerInputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E57FF97E228D5D1700802285 /* ScannerInputViewController.swift */; };
+		EBD4DD47A9F80A99C880A21A /* Pods_Refundis.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C420B08AFAB5240D8005BB16 /* Pods_Refundis.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		11EE43142B5B135F09963B7C /* Pods-Refundis.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Refundis.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Refundis/Pods-Refundis.debug.xcconfig"; sourceTree = "<group>"; };
+		560D7A8F00215E8F16A67009 /* Pods-BarcodeScannerExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BarcodeScannerExample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BarcodeScannerExample/Pods-BarcodeScannerExample.debug.xcconfig"; sourceTree = "<group>"; };
+		62349D4FB85E1C5DD4944AC4 /* Pods-Refundis.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Refundis.release.xcconfig"; path = "Pods/Target Support Files/Pods-Refundis/Pods-Refundis.release.xcconfig"; sourceTree = "<group>"; };
+		63C957FD1F74872600BAD365 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B2BB8B30EF0245DC64F4025A /* Pods-BarcodeScannerExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BarcodeScannerExample.release.xcconfig"; path = "Pods/Target Support Files/Pods-BarcodeScannerExample/Pods-BarcodeScannerExample.release.xcconfig"; sourceTree = "<group>"; };
+		C420B08AFAB5240D8005BB16 /* Pods_Refundis.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Refundis.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D50BE3F51C9FE8870000A34C /* Refundis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Refundis.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D50BE3F81C9FE8870000A34C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D50BE3FA1C9FE8870000A34C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D50BE3FF1C9FE8870000A34C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D50BE4021C9FE8870000A34C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D50BE4041C9FE8870000A34C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E555A140228B55BE005B8AEC /* ManualInputViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManualInputViewController.swift; sourceTree = "<group>"; };
+		E57FF974228C13E000802285 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E57FF976228C186700802285 /* FirebaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseManager.swift; sourceTree = "<group>"; };
+		E57FF978228C3C2500802285 /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
+		E57FF97A228C3DD200802285 /* Slide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Slide.swift; sourceTree = "<group>"; };
+		E57FF97C228C3DE500802285 /* Slide.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Slide.xib; sourceTree = "<group>"; };
+		E57FF97E228D5D1700802285 /* ScannerInputViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerInputViewController.swift; sourceTree = "<group>"; };
+		F2F8EDB06143E719746E253D /* Pods_BarcodeScannerExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BarcodeScannerExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D50BE3F21C9FE8870000A34C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBD4DD47A9F80A99C880A21A /* Pods_Refundis.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04F2F1ECAB8C0457F6FF4BBC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				560D7A8F00215E8F16A67009 /* Pods-BarcodeScannerExample.debug.xcconfig */,
+				B2BB8B30EF0245DC64F4025A /* Pods-BarcodeScannerExample.release.xcconfig */,
+				11EE43142B5B135F09963B7C /* Pods-Refundis.debug.xcconfig */,
+				62349D4FB85E1C5DD4944AC4 /* Pods-Refundis.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		220E47204A0A0DD7D8A4D4D8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F2F8EDB06143E719746E253D /* Pods_BarcodeScannerExample.framework */,
+				C420B08AFAB5240D8005BB16 /* Pods_Refundis.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D50BE3EC1C9FE8870000A34C = {
+			isa = PBXGroup;
+			children = (
+				D50BE3F71C9FE8870000A34C /* Refundis */,
+				D50BE3F61C9FE8870000A34C /* Products */,
+				04F2F1ECAB8C0457F6FF4BBC /* Pods */,
+				220E47204A0A0DD7D8A4D4D8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D50BE3F61C9FE8870000A34C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D50BE3F51C9FE8870000A34C /* Refundis.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D50BE3F71C9FE8870000A34C /* Refundis */ = {
+			isa = PBXGroup;
+			children = (
+				E57FF974228C13E000802285 /* GoogleService-Info.plist */,
+				63C957FC1F74872600BAD365 /* Main.storyboard */,
+				E57FF97A228C3DD200802285 /* Slide.swift */,
+				E57FF97C228C3DE500802285 /* Slide.xib */,
+				E57FF978228C3C2500802285 /* OnboardingViewController.swift */,
+				E57FF976228C186700802285 /* FirebaseManager.swift */,
+				E555A140228B55BE005B8AEC /* ManualInputViewController.swift */,
+				E57FF97E228D5D1700802285 /* ScannerInputViewController.swift */,
+				D50BE3F81C9FE8870000A34C /* AppDelegate.swift */,
+				D50BE3FA1C9FE8870000A34C /* ViewController.swift */,
+				D50BE3FF1C9FE8870000A34C /* Assets.xcassets */,
+				D50BE4011C9FE8870000A34C /* LaunchScreen.storyboard */,
+				D50BE4041C9FE8870000A34C /* Info.plist */,
+			);
+			path = Refundis;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D50BE3F41C9FE8870000A34C /* Refundis */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D50BE4071C9FE8870000A34C /* Build configuration list for PBXNativeTarget "Refundis" */;
+			buildPhases = (
+				BDF82C3FF3E7C5A57E2534BE /* [CP] Check Pods Manifest.lock */,
+				36F8214472FD1CA639982CE8 /* [CP] Check Pods Manifest.lock */,
+				D50BE3F11C9FE8870000A34C /* Sources */,
+				D50BE3F21C9FE8870000A34C /* Frameworks */,
+				D50BE3F31C9FE8870000A34C /* Resources */,
+				E090C912AA824DD28A310598 /* [CP] Embed Pods Frameworks */,
+				C6637BE832A43C8F49FCF84D /* 📦 Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Refundis;
+			productName = BarcodeScannerExample;
+			productReference = D50BE3F51C9FE8870000A34C /* Refundis.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D50BE3ED1C9FE8870000A34C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Hyper Interaktiv AS";
+				TargetAttributes = {
+					D50BE3F41C9FE8870000A34C = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 4F25NTVE7X;
+						LastSwiftMigration = 0800;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D50BE3F01C9FE8870000A34C /* Build configuration list for PBXProject "Refundis" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+				Base,
+			);
+			mainGroup = D50BE3EC1C9FE8870000A34C;
+			productRefGroup = D50BE3F61C9FE8870000A34C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D50BE3F41C9FE8870000A34C /* Refundis */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D50BE3F31C9FE8870000A34C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E57FF97D228C3DE500802285 /* Slide.xib in Resources */,
+				63C957FE1F74872600BAD365 /* Main.storyboard in Resources */,
+				D50BE4031C9FE8870000A34C /* LaunchScreen.storyboard in Resources */,
+				E57FF975228C13E000802285 /* GoogleService-Info.plist in Resources */,
+				D50BE4001C9FE8870000A34C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		36F8214472FD1CA639982CE8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BDF82C3FF3E7C5A57E2534BE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Refundis-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C6637BE832A43C8F49FCF84D /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "
+";
+			showEnvVarsInLog = 0;
+		};
+		E090C912AA824DD28A310598 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Refundis/Pods-Refundis-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BarcodeScanner/BarcodeScanner.framework",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL-GRPC/openssl_grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/FlagPhoneNumber/FlagPhoneNumber.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-C++/grpcpp.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/libPhoneNumber-iOS/libPhoneNumber_iOS.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BarcodeScanner.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl_grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FlagPhoneNumber.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpcpp.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/libPhoneNumber_iOS.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Refundis/Pods-Refundis-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D50BE3F11C9FE8870000A34C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E57FF977228C186700802285 /* FirebaseManager.swift in Sources */,
+				E555A141228B55BE005B8AEC /* ManualInputViewController.swift in Sources */,
+				E57FF97F228D5D1700802285 /* ScannerInputViewController.swift in Sources */,
+				E57FF979228C3C2500802285 /* OnboardingViewController.swift in Sources */,
+				E57FF97B228C3DD200802285 /* Slide.swift in Sources */,
+				D50BE3FB1C9FE8870000A34C /* ViewController.swift in Sources */,
+				D50BE3F91C9FE8870000A34C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		63C957FC1F74872600BAD365 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63C957FD1F74872600BAD365 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D50BE4011C9FE8870000A34C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D50BE4021C9FE8870000A34C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D50BE4051C9FE8870000A34C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		D50BE4061C9FE8870000A34C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D50BE4081C9FE8870000A34C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11EE43142B5B135F09963B7C /* Pods-Refundis.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4F25NTVE7X;
+				INFOPLIST_FILE = "$(SRCROOT)/Refundis/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kiler.refundis;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D50BE4091C9FE8870000A34C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62349D4FB85E1C5DD4944AC4 /* Pods-Refundis.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4F25NTVE7X;
+				INFOPLIST_FILE = "$(SRCROOT)/Refundis/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kiler.refundis;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D50BE3F01C9FE8870000A34C /* Build configuration list for PBXProject "Refundis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D50BE4051C9FE8870000A34C /* Debug */,
+				D50BE4061C9FE8870000A34C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D50BE4071C9FE8870000A34C /* Build configuration list for PBXNativeTarget "Refundis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D50BE4081C9FE8870000A34C /* Debug */,
+				D50BE4091C9FE8870000A34C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D50BE3ED1C9FE8870000A34C /* Project object */;
+}
